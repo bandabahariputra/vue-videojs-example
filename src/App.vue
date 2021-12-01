@@ -64,7 +64,7 @@ const mobileUiOptions = {
       <div class="title">With <a href="https://github.com/prateekrastogi/videojs-landscape-fullscreen" target="_blank">videojs-landscape-fullscreen</a></div>
       <Videojs :options="baseOptions" landscape-fullscreen />
       <div class="content">
-        <p><b>Feature:</b></p>
+        <p><b>Features:</b></p>
         <ul>
           <li>Rotate to landscape to enter Fullscreen</li>
           <li>Always enter fullscreen in landscape mode even if device is in portrait mode</li>
@@ -78,14 +78,14 @@ const mobileUiOptions = {
       <div class="title">With <a href="https://github.com/mister-ben/videojs-mobile-ui" target="_blank">videojs-mobile-ui</a></div>
       <Videojs :options="mobileUiOptions" mobile-ui />
       <div class="content">
-        <p><b>Feature:</b></p>
+        <p><b>Features:</b></p>
         <ul>
           <li>Double-tap the left side of the player to rewind ten seconds</li>
           <li>Double-tap the right side of the player to fast-forward ten seconds</li>
           <li>Single-tap the screen to show a play/pause toggle</li>
           <li>Rotate to landscape to enter Fullscreen</li>
           <li>Lock to fullscreen on rotate</li>
-          <li>Whether to use fake fullscreen on iOS (needed for controls to wxork)</li>
+          <li>Whether to use fake fullscreen on iOS (needed for controls to work)</li>
         </ul>
       </div>
     </div>
