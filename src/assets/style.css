@@ -1,0 +1,25 @@
+/* custom font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base style */
+* {
+  font-family: Quicksand, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+  color: #4f515a;
+}
+
+a {
+  text-decoration: none;
+}
+
+code {
+  font-family: monospace;
+  font-size: 14px;
+}
