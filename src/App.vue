@@ -63,12 +63,31 @@ const mobileUiOptions = {
     <div class="card">
       <div class="title">With <a href="https://github.com/prateekrastogi/videojs-landscape-fullscreen" target="_blank">videojs-landscape-fullscreen</a></div>
       <Videojs :options="baseOptions" landscape-fullscreen />
+      <div class="content">
+        <p><b>Feature:</b></p>
+        <ul>
+          <li>Rotate to landscape to enter Fullscreen</li>
+          <li>Always enter fullscreen in landscape mode even if device is in portrait mode</li>
+          <li>Whether to use fake fullscreen on iOS (needed for displaying player controls instead of system controls)</li>
+        </ul>
+      </div>
     </div>
 
     <!-- with videojs-mobile-ui -->
     <div class="card">
       <div class="title">With <a href="https://github.com/mister-ben/videojs-mobile-ui" target="_blank">videojs-mobile-ui</a></div>
       <Videojs :options="mobileUiOptions" mobile-ui />
+      <div class="content">
+        <p><b>Feature:</b></p>
+        <ul>
+          <li>Double-tap the left side of the player to rewind ten seconds</li>
+          <li>Double-tap the right side of the player to fast-forward ten seconds</li>
+          <li>Single-tap the screen to show a play/pause toggle</li>
+          <li>Rotate to landscape to enter Fullscreen</li>
+          <li>Lock to fullscreen on rotate</li>
+          <li>Whether to use fake fullscreen on iOS (needed for controls to wxork)</li>
+        </ul>
+      </div>
     </div>
   </div>
 </template>
@@ -97,7 +116,12 @@ a:hover {
   margin-bottom: 2rem;
 }
 
-.card .title {
+.card .title,
+.card .content {
   padding: 1rem;
+}
+
+ul {
+  list-style-position: inside;
 }
 </style>
